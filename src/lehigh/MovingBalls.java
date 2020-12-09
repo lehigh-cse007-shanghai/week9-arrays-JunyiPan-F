@@ -29,6 +29,7 @@ public class MovingBalls extends PApplet {
         background(250, 142, 82);
         fill(255, 0, 0);
         stroke(255, 10, 10);
+
         for (int i = 0; i < howManyBalls; i++) {
             fill(color[i][0], color[i][1], color[i][2]);
             ellipse(x[i], y[i], radius * 2, radius * 2);
